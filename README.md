@@ -1,6 +1,14 @@
-# Svelte + TS + Vite
+# Svelte + TS + Vite &nbsp;&nbsp;&nbsp;[![Netlify Status](https://api.netlify.com/api/v1/badges/f7e93fc3-1d84-4166-a64e-45f8ef9ef40b/deploy-status)](https://app.netlify.com/sites/svelte-ts-demo/deploys)
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
+
+## Online demo
+
+[Demo](https://svelte-ts-demo.netlify.app/)
+
+## 1-click deployment on Netlify
+
+[![Netlify 1-Click Deployment](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/marc-aurele-besner/svelte-ts-demo)
 
 ## Recommended IDE Setup
 
