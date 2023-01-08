@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "start",
+        "runOptions": {
+          "runOn": "folderOpen"
+        },
+        "dependsOrder": "sequence",
+        "dependsOn": [
+          "install-dependencies",
+          "check",
+          "start-dev"
+        ]
+      },
+      {
+        "label": "install-dependencies",
+        "type": "shell",
+        "command": "npm i",
+        "presentation": {
+          "panel": "dedicated"
+        }
+      },
+      {
+        "label": "start-dev",
+        "type": "shell",
+        "command": "npm run dev",
+        "presentation": {
+          "panel": "dedicated"
+        }
+      },
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "npm run build",
+          "presentation": {
+              "panel": "dedicated"
+          }
+      },
+      {
+          "label": "preview",
+          "type": "shell",
+          "command": "npm run preview",
+          "presentation": {
+              "panel": "dedicated"
+          }
+      },
+      {
+          "label": "check",
+          "type": "shell",
+          "command": "npm run check",
+          "presentation": {
+              "panel": "dedicated"
+          }
+      }
+    ]
+  }
