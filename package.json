@@ -1,0 +1,33 @@
+{
+  "name": "svelte-ts-demo",
+  "version": "1.0.0",
+  "description": "This template should help get you started developing with Svelte and TypeScript in Vite.",
+  "author": "Marc-Aurele Besner <82244926+marc-aurele-besner@users.noreply.github.com>",
+  "license": "MIT",
+  "keywords": [
+    "svelte",
+    "typescript",
+    "vite"
+  ],
+  "main": "svelte.config.js",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/marc-aurele-besner/hardhat-awesome-cli/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.55.0",
+    "svelte-check": "^3.0.1",
+    "svelte-preprocess": "^5.0.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  }
+}
